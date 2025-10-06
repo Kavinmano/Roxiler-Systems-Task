@@ -85,7 +85,5 @@
 | **Authentication** | JWT (JSON Web Token) |
 | **Deployment** | Netlify (Frontend) / Spring Boot Server (Backend) |
 
----
 
-## 🧩 Project Structure
 
