@@ -1,61 +1,91 @@
-Roxiler Systems Task 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Kavinmano/Roxiler-Systems-Task">
+    <img src="public/store3d.jpg" alt="Logo" width="120" height="100">
+  </a>
 
-I have created Store Rating application which allows us to review the stores 
+  <h2 align="center">🛍️ Store Rating WebApp</h2>
 
-User Roles
-1. System Administrator
-2. Normal User
-3. Store Owner
+  <p align="center">
+    A full-stack web application that allows users to rate and review stores.<br/>
+    Built for the <strong>Roxiler Systems Task</strong> using modern technologies.
+    <br /><br />
+    <a href="https://github.com/Kavinmano/Roxiler-Systems-Task"><strong>Explore the repo »</strong></a>
+    <br /><br />
+  </p>
+</div>
 
-4. System Administrator
-● Can add new stores, normal users, and admin users.
-● Has access to a dashboard displaying:
-○ Total number of users
-○ Total number of stores
-○ Total number of submitted ratings
-● Can add new users with the following details:
-○ Name
-○ Email
-○ Password
-○ Address
-● Can view a list of stores with the following details:
-○ Name, Email, Address, Rating
-● Can view a list of normal and admin users with:
-○ Name, Email, Address, Role
-● Can apply filters on all listings based on Name, Email, Address, and Role.
-● Can view details of all users, including Name, Email, Address, and Role.
-○ If the user is a Store Owner, their Rating should also be displayed.
-● Can log out from the system.
-Normal User
+---
 
-● Can sign up and log in to the platform.
-● Signup form fields:
-○ Name
-○ Email
-○ Address
-○ Password
-● Can update their password after logging in.
-● Can view a list of all registered stores.
-● Can search for stores by Name and Address.
-● Store listings should display:
-○ Store Name
-○ Address
-○ Overall Rating
-○ User's Submitted Rating
-○ Option to submit a rating
-○ Option to modify their submitted rating
-● Can submit ratings (between 1 to 5) for individual stores.
-● Can log out from the system.
-Store Owner
-● Can log in to the platform.
-● Can update their password after logging in.
-● Dashboard functionalities:
-○ View a list of users who have submitted ratings for their store.
-○ See the average rating of their store.
-● Can log out from the system.
-Form Validations
-● Name: Min 20 characters, Max 60 characters.
-● Address: Max 400 characters.
-● Password: 8-16 characters, must include at least one uppercase letter and one
-special character.
-● Email: Must follow standard email validation rules.
+## 🚀 Overview
+
+**Store Rating WebApp** is a role-based review system that enables users to rate stores, while administrators and store owners manage and view store performance through interactive dashboards.
+
+---
+
+## ⚙️ Features
+
+### 👑 System Administrator
+- Add new **stores**, **normal users**, and **admin users**.
+- View **dashboard statistics**:
+  - Total users  
+  - Total stores  
+  - Total ratings submitted
+- View and manage:
+  - ✅ Store list with Name, Email, Address, and Rating  
+  - ✅ User list with Name, Email, Address, and Role
+- Apply filters by **Name**, **Email**, **Address**, or **Role**.
+- View detailed user info (if Store Owner → shows Rating).
+- Secure **logout** functionality.
+
+---
+
+### 🙍 Normal User
+- **Sign up** and **log in** securely.
+- **Update password** after login.
+- **Search** stores by Name or Address.
+- View:
+  - 🏪 Store Name  
+  - 📍 Address  
+  - ⭐ Overall Rating  
+  - 🧍 User’s Submitted Rating
+- Submit or modify **ratings (1–5)** for stores.
+- Secure **logout** functionality.
+
+---
+
+### 🏪 Store Owner
+- Secure **login** and **password update**.
+- Dashboard includes:
+  - List of **users** who rated the store.
+  - Average **store rating**.
+- Secure **logout** functionality.
+
+---
+
+## 🧾 Form Validations
+
+| Field | Validation Rules |
+|-------|------------------|
+| **Name** | 20–60 characters |
+| **Address** | Max 400 characters |
+| **Password** | 8–16 characters, at least one uppercase letter and one special character |
+| **Email** | Must follow standard email format |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React.js, Redux, Axios, TailwindCSS |
+| **Backend** | Spring Boot (Java) |
+| **Database** | MySQL |
+| **Authentication** | JWT (JSON Web Token) |
+| **Deployment** | Netlify (Frontend) / Spring Boot Server (Backend) |
+
+---
+
+## 🧩 Project Structure
+
